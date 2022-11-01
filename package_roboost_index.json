@@ -1,0 +1,35 @@
+{
+    "packages": [
+        {
+            "help": {
+                "online": "http://www.so-smart.co.uk"
+            },
+            "maintainer": "SoSmart",
+            "name":"sosmart",
+            "platforms": [
+                {
+                  "name": "Roboost Maker",
+                  "architecture": "nuvoton",
+                  "version": "1.0.0",
+                  "category": "Arduino",
+				  "url": "https://github.com/meridya/Roboost_Arduino_IDE_Extension/releases/download/Arduino/Roboost_Maker_Arduino.zip",
+                  "archiveFileName": "Roboost_Maker_Arduino.zip",
+                  "checksum": "SHA-256:8f7f6087d566296060ef8c8d785f83d91f4fd0a26ff82737d80c04d48012bdb0",
+                  "size": "25645044",
+                  "boards": [
+                    {"name": "Roboost Maker"}
+                  ],
+                  "toolsDependencies": [
+                    {
+                      "packager": "arduino",
+                      "name": "arm-none-eabi-gcc",
+                      "version": "4.8.3-2014q1"
+                    }
+                  ]
+                }
+            ],
+            "tools": [],
+            "websiteURL": "http://www.so-smart.co.uk"
+        }
+    ]
+}
