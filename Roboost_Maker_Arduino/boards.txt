@@ -1,0 +1,18 @@
+sosmart_nuc240.name=Roboost-Maker
+sosmart_nuc240.upload.tool=nulinkburn
+sosmart_nuc240.upload.protocol=sam-ba
+sosmart_nuc240.upload.maximum_size=65536
+sosmart_nuc240.upload.use_1200bps_touch=false
+sosmart_nuc240.upload.wait_for_upload_port=false
+sosmart_nuc240.upload.native_usb=false
+sosmart_nuc240.build.mcu=cortex-m0
+sosmart_nuc240.build.f_cpu=48000000L
+sosmart_nuc240.build.core=SoSmart
+sosmart_nuc240.build.extra_flags=-D__NUC240__ -mthumb -DUSB_PID={build.pid} -DUSB_VID={build.vid} -DUSBCON
+sosmart_nuc240.build.board=__NUVOTON__
+sosmart_nuc240.build.ldscript=linker_scripts/gcc/64K_8K_flash.ld
+sosmart_nuc240.build.variant=SoSmart
+sosmart_nuc240.build.variant_system_lib=../../system/{build.def}/libchip_NUC200Series_gcc_rel.a
+sosmart_nuc240.build.vid=0x2341
+sosmart_nuc240.build.pid=0x003e
+sosmart_nuc240.build.def=NUC200Series
